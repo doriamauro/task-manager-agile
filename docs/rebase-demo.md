@@ -1,1 +1,1 @@
-test rebase
+github-squash-demo-1
