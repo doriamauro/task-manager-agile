@@ -15,4 +15,4 @@ def health_check() -> dict[str, str]:
 
 @app.get("/api/tasks")
 def get_tasks(status: str = ""):
-    return {"status_filter": status, "tasks": []}
+    return {"status_filter": status, "tasks": [], "result": "ok"}
