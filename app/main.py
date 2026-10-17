@@ -12,3 +12,7 @@ app = FastAPI(
 @app.get("/api/health")
 def health_check() -> dict[str, str]:
     return {"status": "operational"}
+
+@app.get("/api/tasks")
+def get_tasks(status: str = ""):
+    return {"status_filter": status, "tasks": []}
