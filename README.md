@@ -36,4 +36,6 @@ From the repository root:
 ```bash
 uvicorn app.main:app --reload
 ```
+## Funzionalità in sviluppo
 
+- Issue #15: aggiungere un livello di priorità ai task (alta, media, bassa).
